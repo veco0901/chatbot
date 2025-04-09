@@ -2,13 +2,14 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("💬 Chatbot")
+st.title("💬 공공조달길잡이 상담사")
 st.write(
     """
     공공조달, 어렵게만 느껴지셨나요? \n
     이 챗봇은 중소기업, 벤처기업, 그리고 혁신기업 여러분이 조달 시장에 쉽게 다가갈 수 있도록 도와주는 든든한 가이드입니다. \n
     입찰 절차부터 지원 제도까지, 필요한 정보를 쉽고 빠르게 알려드릴게요.\n
     처음이라도 괜찮아요. 함께 한 걸음씩 시작해보세요!\n"""
+)
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
