@@ -1,5 +1,7 @@
 import streamlit as st
 import chromadb
+from chromadb import EphemeralClient
+client = EphemeralClient()  # 메모리 전용
 from llama_index.core import (
     VectorStoreIndex,
     SimpleDirectoryReader,
