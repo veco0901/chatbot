@@ -5,4 +5,4 @@ requests
 llama-index-vector-stores-chroma
 chromadb
 ipython
-pyssqlite3-binary
+pysqlite3-binary
